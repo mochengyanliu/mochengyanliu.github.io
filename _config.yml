@@ -1,10 +1,10 @@
 # Site settings
-title: Li Jun
-SEOTitle: 李军的博客 | LiJ Blog
+title: Hux Blog
+SEOTitle: 黄玄的博客 | Hux Blog
 header-img: img/home-bg.jpg
-email: lijun@gmail.com
-description: "关于程序与设计、黑客与画家 | 李军，Web & Mobile Lover，Software Engineer，UX Designer | 这里是 @LiJ李军 的个人博客，与你一起发现更大的世界。"
-keyword: "李军, LiJ李军, LiJ, 鬼栈, lijun, @lijun, 李军的博客, lijun Blog, 博客, 个人网站, 互联网,"
+email: huxpro@gmail.com
+description: "关于程序与设计、黑客与画家 | 黄玄，Web & Mobile Lover，Software Engineer，UX Designer | 这里是 @Hux黄玄 的个人博客，与你一起发现更大的世界。"
+keyword: "黄玄, Hux黄玄, Hux, 鬼栈, huxpro, @huxpro, 黄玄的博客, Hux Blog, 博客, 个人网站, 互联网, Web, JavaScript, 前端, 设计"
 url: "https://huangxuan.me"              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
@@ -13,11 +13,11 @@ future: true
 
 # SNS settings
 RSS: false
-weibo_username:     lijun
-zhihu_username:     lijun
-github_username:    lijun
-twitter_username:   lijun
-#facebook_username:  lijun
+weibo_username:     huxpro
+zhihu_username:     huxpro
+github_username:    huxpro
+twitter_username:   huxpro
+#facebook_username:  huxpro
 #linkedin_username:  firstname-lastname-idxxxx
 
 
@@ -59,7 +59,7 @@ kramdown:
 
 
 # Disqus settings
-disqus_username: LiJ
+disqus_username: hux
 
 # Netease settings
 netease_comment: false
@@ -79,7 +79,7 @@ ga_domain: huangxuan.me
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "For the next quantum leap<br>离开世界之前，一切都是过程"
-sidebar-avatar: /img/avatar-LiJ-ny.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: /img/avatar-hux-ny.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
