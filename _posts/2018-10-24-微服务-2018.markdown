@@ -18,13 +18,13 @@ tags:
 
 Swagger 是一个规范和完整的框架，用于生成、描述、调用和可视化 RESTful 风格的 Web 服务。总体目标是使客户端和文件系统作为服务器以同样的速度来更新。文件的方法，参数和模型紧密集成到服务器端的代码，允许API来始终保持同步。
 
- **作用：**
+**作用：**
 
-    1. *接口的文档在线自动生成。*
+1. *接口的文档在线自动生成。*
 
-    2. *功能测试*。
+2. *功能测试。*
 
- **Swagger是一组开源项目，其中主要要项目如下：**
+**Swagger是一组开源项目，其中主要要项目如下：**
 
 1.   **Swagger-tools**:提供各种与Swagger进行集成和交互的工具。例如模式检验、Swagger 1.2文档转换成Swagger 2.0文档等功能。
 
@@ -41,6 +41,7 @@ Swagger 是一个规范和完整的框架，用于生成、描述、调用和可
 ## 集成SpringBoot
 
 ####第一步： jar包的引入
+
 (```)
   <dependency> 
 	  <groupId>io.springfox</groupId> 
@@ -241,6 +242,7 @@ Swagger使用的注解及其说明：
 
 <font color=red size=72>*注</font>
 1.如果后台写了过滤器或者有跨域请注意加上以下代码：
+
 (```)
 @Configuration
 public class WebApiConfig extends WebMvcConfigurationSupport {
