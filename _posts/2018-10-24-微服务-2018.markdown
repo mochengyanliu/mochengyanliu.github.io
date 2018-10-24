@@ -145,9 +145,9 @@ Swagger 是一个规范和完整的框架，用于生成、描述、调用和可
 	 * @author SUNF
 	 */
 	@Controller
-	@RequestMapping("/say")
-	@Api(value = "SayController|一个用来测试swagger注解的控制器")
-	public class SayController {
+	@RequestMapping("/Hello")
+	@Api(value = "HelloController|一个用来测试swagger注解的控制器")
+	public class HelloController {
 		
 		@ResponseBody
 		@RequestMapping(value ="/getUserName", method= RequestMethod.GET)
@@ -155,10 +155,10 @@ Swagger 是一个规范和完整的框架，用于生成、描述、调用和可
 		@ApiImplicitParam(paramType="query", name = "userNumber", value = "用户编号", required = true, dataType = "Integer")
 		public String getUserName(@RequestParam Integer userNumber){
 			if(userNumber == 1){
-				return "张三丰";
+				return "张三";
 			}
 			else if(userNumber == 2){
-				return "慕容复";
+				return "李四";
 			}
 			else{
 				return "未知";
