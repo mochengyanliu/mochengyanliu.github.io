@@ -213,7 +213,7 @@ Swagger使用的注解及其说明：
 
     -   dataType：参数类型
 
-	-   required：参数是否必须传（true|false）
+	-   required：参数是否必须传（true | false）
 
     -   value：说明参数的意思
 
@@ -237,8 +237,8 @@ Swagger使用的注解及其说明：
 
 #### 第四步：完成上述代码后
 启动Spring Boot程序，访问：http://localhost:8080/swagger-ui.html
+【*注】
 
-<font color=red size=72>*注</font>
 1.如果后台写了过滤器或者有跨域请注意加上以下代码：
 
 	@Configuration
