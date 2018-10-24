@@ -4,7 +4,7 @@ title:      "微服务之SpringBoot集成Swagger"
 subtitle:   " \"Hello SpringBoot, Hello Swagger\""
 date:       2018-10-24 12:00:00
 author:     "墨城烟柳（Mcyl）"
-header-img: "img/post-bg-alibaba.jpg"
+header-img: "img/post-bg-css.jpg"
 catalog: true
 tags:
     - 生活
@@ -43,6 +43,7 @@ Swagger 是一个规范和完整的框架，用于生成、描述、调用和可
 #### 第一步： jar包的引入
 
 (```)
+
 	<dependency> 
 	  <groupId>io.springfox</groupId> 
 	  <artifactId>springfox-swagger2</artifactId> 
@@ -54,12 +55,14 @@ Swagger 是一个规范和完整的框架，用于生成、描述、调用和可
 	  <artifactId>springfox-swagger-ui</artifactId> 
 	  <version>2.6.1</version> 
 	</dependency>
+
 (```)
 
 #### 第二步： swagger的配置启动类编写
 在Application.java同级创建Swagger2的配置类Swagger2
 
 (```)
+
 	package com.swaggerTest;
 	 
 	import org.springframework.context.annotation.Bean;
@@ -122,6 +125,7 @@ Swagger 是一个规范和完整的框架，用于生成、描述、调用和可
 					.build();
 		}
 	}
+
 (```)
 
 以上代码所示，通过createRestApi函数创建Docket的Bean之后，apiInfo()用来创建该Api的基本信息（这些基本信息会展现在文档页面中）。
@@ -129,6 +133,7 @@ Swagger 是一个规范和完整的框架，用于生成、描述、调用和可
 #### 第三步：使用swagger来进行模拟测试：
 
 (```)
+
 	package com.swaggerTest.controller;
 	 
 	import org.springframework.stereotype.Controller;
@@ -192,6 +197,7 @@ Swagger 是一个规范和完整的框架，用于生成、描述、调用和可
 		  return "密码修改成功!";
 		}
 	}
+
 (```)
 
 Swagger使用的注解及其说明：
@@ -246,6 +252,7 @@ Swagger使用的注解及其说明：
 1.如果后台写了过滤器或者有跨域请注意加上以下代码：
 
 (```)
+
 	@Configuration
 	public class WebApiConfig extends WebMvcConfigurationSupport {
 	 
@@ -268,6 +275,7 @@ Swagger使用的注解及其说明：
 					.allowedMethods("GET", "POST", "PUT", "OPTIONS", "DELETE", "PATCH")
 					.allowCredentials(true).maxAge(3600);
 		}
+
 (```)
 
 2.paramType会直接影响程序的运行期，如果paramType与@RequestParam方法参数获取使用的注解不一致，会直接影响到参数的接收。
