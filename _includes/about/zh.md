@@ -7,6 +7,8 @@ Hey，我是墨城烟柳，主业,码农一枚；副业，偶尔写博客，于�
 
 喜欢读书（尤其喜欢历史、经济、文学、数学、IT相关等）；喜欢旅游；喜欢摄影；喜欢音乐；喜欢烹饪（水平还不错哦）；喜欢骑自行车瞎逛等等。
 
+[墨城烟柳的简历](https://mochengyanliu.github.io/demo/aboutme/index.html)
+
 ##### Talks
 
 - [Upgrading to Progressive Web Apps][9] · [JSConf CN 上海 2017](http://2017.jsconf.cn/)
