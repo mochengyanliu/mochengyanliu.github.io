@@ -294,5 +294,5 @@ EurekaServer是有界面的，启动工程,打开浏览器访问：http://localh
 
 ####  源码下载：
 
-https://github.com/mochengyanliu/SpringCloudLearn/tree/master/section1
+[https://github.com/mochengyanliu/SpringCloudLearn/tree/master/section1](https://github.com/mochengyanliu/SpringCloudLearn/tree/master/section1)
 
