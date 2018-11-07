@@ -134,8 +134,6 @@ Ribbon 主要有三大模块，模块说明如下：
 		service-url:
 		  defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
 
-		  
-####通过eureka.client.registerWithEureka：false和fetchRegistry：false来表明自己是一个EurekaServer。注意每个冒号后面要有空格，否则无效。
 
 ##第三步 配置启动类
 
@@ -210,7 +208,9 @@ Ribbon 主要有三大模块，模块说明如下：
 ## 启动工程
 
 打开 http://localhost:9874/hello?name=handsomeman ，你会在浏览器上看到交替显示：
+
 hello: handsomeman,i am from port:9872
+
 hello: handsomeman,i am from port:9873
 
 这说明当我们通过调用restTemplate.getForObject("http://eureka-client/hello?name="+name,String.class);方法时，已经做了负载均衡，访问了不同的端口的服务实例。
