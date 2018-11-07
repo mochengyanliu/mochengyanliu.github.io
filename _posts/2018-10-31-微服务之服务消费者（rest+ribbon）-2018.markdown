@@ -19,7 +19,7 @@ tags:
 Ribbon 主要有三大模块，模块说明如下：
 
 -  ribbon-core：该模块为Ribbon项目的核心，主要包括负载均衡器接口定义、客户端接口定义、内置的负载均衡实现等API
--  ribbon-eureka：为 Eureka 客户端提供的负载君均衡实现类
+-  ribbon-eureka：为 Eureka 客户端提供的负载均衡实现类
 -  ribbon-httpclient：对 Apache 的 HttpClient 进行封装，该模块提供了含有负载均衡功能的 REST 客户端
 
 
@@ -134,7 +134,8 @@ Ribbon 主要有三大模块，模块说明如下：
 		service-url:
 		  defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
 
-	####通过eureka.client.registerWithEureka：false和fetchRegistry：false来表明自己是一个EurekaServer。注意每个冒号后面要有空格，否则无效。
+		  
+####通过eureka.client.registerWithEureka：false和fetchRegistry：false来表明自己是一个EurekaServer。注意每个冒号后面要有空格，否则无效。
 
 ##第三步 配置启动类
 
@@ -184,7 +185,9 @@ Ribbon 主要有三大模块，模块说明如下：
 		}
 	}
 
-## 第五步：写一个测试类controller，在controller中用调用HelloService 的方法，代码如下：
+## 第五步：写一个测试类controller
+
+在controller中用调用HelloService 的方法，代码如下：
 
 	import com.test.serviceribbon.service.HelloService;
 	import org.springframework.beans.factory.annotation.Autowired;
