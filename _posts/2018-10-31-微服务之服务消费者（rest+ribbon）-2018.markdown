@@ -135,7 +135,7 @@ Ribbon 主要有三大模块，模块说明如下：
 		  defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
 
 
-##第三步 配置启动类
+## 第三步 配置启动类
 
 在工程的启动类中,通过@EnableDiscoveryClient向服务中心注册；并且向程序的ioc注入一个bean: RestTemplate;并通过@LoadBalanced注解表明这个RestTemplate开启负载均衡的功能。
 
