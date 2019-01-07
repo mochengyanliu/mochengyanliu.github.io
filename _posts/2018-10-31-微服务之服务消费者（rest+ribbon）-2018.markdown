@@ -122,17 +122,15 @@ Ribbon 主要有三大模块，模块说明如下：
 
 #### 配置appication.yml文件：
 
-	server:
-	  port: 9871
-	  
 	eureka:
-	  instance:
-		hostname: localhost
 	  client:
-		registerWithEureka: false
-		fetchRegistry: false
 		service-url:
-		  defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+		  defaultZone: http://localhost:9871/eureka/
+	server:
+	  port: 9874
+	spring:
+	  application:
+		name: service-ribbon
 
 
 ## 第三步 配置启动类
