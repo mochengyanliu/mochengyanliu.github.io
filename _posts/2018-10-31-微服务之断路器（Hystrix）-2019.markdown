@@ -314,7 +314,9 @@ hello,handsomeman,sorry,error!
 
 	
 
-#### 配置appication.yml文件,Feign是自带断路器的，它没有默认打开。需要在配置文件中配置打开它，在配置文件加以下代码：
+#### 配置appication.yml文件
+
+Feign是自带断路器的，它没有默认打开。需要在配置文件中配置打开它，在配置文件加以下代码：
 
 	server:
 	  port: 9874
@@ -379,5 +381,5 @@ sorry handsomeman
 
 ####  源码下载：
 
-[https://github.com/mochengyanliu/SpringCloudLearn/tree/master/section3](https://github.com/mochengyanliu/SpringCloudLearn/tree/master/section4)
+[https://github.com/mochengyanliu/SpringCloudLearn/tree/master/section4](https://github.com/mochengyanliu/SpringCloudLearn/tree/master/section4)
 
