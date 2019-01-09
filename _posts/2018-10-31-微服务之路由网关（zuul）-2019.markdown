@@ -21,16 +21,16 @@ Zuul的主要功能是路由转发和过滤器。路由功能是微服务的一�
 
 zuul有以下功能：
 
-    1.Authentication
-    2.Insights
-    3.Stress Testing
-    4.Canary Testing
-    5.Dynamic Routing
-    6.Service Migration
-    7.Load Shedding
-    8.Security
-    9.Static Response handling
-    10.Active/Active traffic management
+    Authentication
+    Insights
+    Stress Testing
+    Canary Testing
+    Dynamic Routing
+    Service Migration
+    Load Shedding
+    Security
+    Static Response handling
+    Active/Active traffic management
 
 
 ## 第一步：创建条件
@@ -246,7 +246,7 @@ zuul不仅只是路由，并且还能过滤，做一些安全验证。继续改�
 
 token is empty
 
-打开 http://localhost:9875/api-a/hello/?name=handsomeman ，浏览器会显示：
+打开 http://localhost:9875/api-a/hello/?token=123&name=handsomeman ，浏览器会显示：
 
 hello handsomeman ,i am from port:9872
 
