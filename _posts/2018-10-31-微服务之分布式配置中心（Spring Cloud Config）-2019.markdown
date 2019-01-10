@@ -124,11 +124,11 @@ tags:
 			  password:
 		  label: master
 	
-	spring.cloud.config.server.git.uri：配置git仓库地址
-	spring.cloud.config.server.git.searchPaths：配置仓库路径
-	spring.cloud.config.label：配置仓库的分支
-	spring.cloud.config.server.git.username：访问git仓库的用户名
-	spring.cloud.config.server.git.password：访问git仓库的用户密码
+	##spring.cloud.config.server.git.uri：配置git仓库地址
+	##spring.cloud.config.server.git.searchPaths：配置仓库路径
+	##spring.cloud.config.label：配置仓库的分支
+	##spring.cloud.config.server.git.username：访问git仓库的用户名
+	##spring.cloud.config.server.git.password：访问git仓库的用户密码
 
 如果Git仓库为公开仓库，可以不填写用户名和密码，如果是私有仓库需要填写，本例子是公开仓库，所以无需用户名密码。
 
@@ -257,15 +257,15 @@ http请求地址和资源文件映射如下:
 	  application:
 		name: config-client
 	
-	spring.cloud.config.label 指明远程仓库的分支
+	##spring.cloud.config.label 指明远程仓库的分支
 
-	spring.cloud.config.profile
+	##spring.cloud.config.profile
 
-		dev开发环境配置文件
-		test测试环境
-		pro正式环境
+		##dev开发环境配置文件
+		##test测试环境
+		##pro正式环境
 
-	spring.cloud.config.uri= http://localhost:8888/ 指明配置服务中心的网址。
+	##spring.cloud.config.uri= http://localhost:8888/ 指明配置服务中心的网址。
 
 ## 第三步 配置主程序
 	
@@ -298,11 +298,11 @@ http请求地址和资源文件映射如下:
 
 访问http://localhost:8881/hello，网页显示
 
-	name=hello,handsomeman.
+name=hello,handsomeman.
 	
 
 
 ####  源码下载：
 
-[https://github.com/mochengyanliu/SpringCloudLearn/tree/master/section5](https://github.com/mochengyanliu/SpringCloudLearn/tree/master/section5)
+[https://github.com/mochengyanliu/SpringCloudLearn/tree/master/section6](https://github.com/mochengyanliu/SpringCloudLearn/tree/master/section6)
 
