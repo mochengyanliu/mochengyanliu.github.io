@@ -2,7 +2,7 @@
 layout:     post
 title:      "微服务之高可用的分布式配置中心（Spring Cloud Config）"
 subtitle:   " \"Hello SpringBoot, Hello SpringClould\""
-date:       2019-01-10 12:00:00
+date:       2019-01-11 12:00:00
 author:     "墨城烟柳（Mcyl）"
 header-img: "img/post-bg-os-metro.jpg"
 catalog: true
@@ -511,14 +511,27 @@ tags:
 			return "hello=" + hello;
 		}
 	}
+	
+我们先单独测试服务端，分别访问：http://localhost:8888/hello/dev、http://localhost:8887/hello/dev返回信息：
+
+	{
+	  "name": "hello",
+	  "profiles": [
+		"dev"
+	  ],
+	  "label": null,
+	  "version": "3e9c0ea54f12e08e5135a16f14d12cb07ccc4f8b",
+	  "state": null,
+	  "propertySources": []
+	}
 
 ## 第十步 启动程序
 
 依次启动eureka-servr,config-server,config-server2,config-client
 
-访问http://localhost:8881/hello，网页显示
-
-name=hello,handsomeman.
+访问http://localhost:8881/hello，网页显示：name=hello,handsomeman.
+说明客户端已经读取到了server端的内容，我们随机停掉一台server端的服务，
+再次访问http://localhost:8002/hello，返回：hello im dev update，说明达到了高可用的目的。
 	
 
 
