@@ -32,7 +32,7 @@ SpringCloud为开发人员提供了快速构建分布式系统的一些工具，
 
 ####  步骤：
 
-右键工程->创建model->选择spring initialir->选择cloud discovery->eureka server,然后一直下一步就行了。
+右键工程->创建创建module->选择spring initialir->cloud discovery->eureka server,然后一直下一步就行了。
 
 ####  创建完成后：
 
@@ -157,7 +157,7 @@ EurekaServer是有界面的，启动工程,打开浏览器访问：http://localh
 
 ####   步骤：
 
-右键工程->创建model->选择spring initialir->选择web->web 同时选择 cloud discovery->eureka discovery,然后一直下一步就行了。
+右键工程->创建创建module->选择spring initialir->web->web,cloud discovery->eureka discovery,然后一直下一步就行了。
 
 ####   创建完成后：
 

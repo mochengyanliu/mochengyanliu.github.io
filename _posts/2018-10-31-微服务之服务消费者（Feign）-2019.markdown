@@ -31,7 +31,7 @@ Feign 主要有三大特征如下：
 
 ## 第二步：创建一个服务消费者： 
 
-右键工程->创建model->选择web->web,cloud discovery->eureka discovery,cloud routing->feign,然后一直下一步就行了。
+右键工程->创建创建module->选择spring initialir->web->web,cloud discovery->eureka discovery,cloud routing->feign,然后一直下一步就行了。
 
 ####  创建完成后：
 

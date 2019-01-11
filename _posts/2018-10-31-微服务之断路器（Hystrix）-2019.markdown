@@ -34,7 +34,7 @@ Netflix创建了一个名为hystrix的库，用于实现断路器模式。在微
 
 ## 第二步：在ribbon使用断路器： 
 
-右键工程->创建model->选择web->web,cloud discovery->eureka discovery,cloud routing->ribbon,cloud circuit breaker->hystrix,然后一直下一步就行了。
+右键工程->创建module->选择spring initialir->web->web,cloud discovery->eureka discovery,cloud routing->ribbon,cloud circuit breaker->hystrix,然后一直下一步就行了。
 
 ####  创建完成后：
 
@@ -232,7 +232,7 @@ hello,handsomeman,sorry,error!
 
 ## 第七步：Feign中使用断路器
 
-右键工程->创建model->选择web->web,cloud discovery->eureka discovery,cloud routing->feign,然后一直下一步就行了。
+右键工程->创建module->选择spring initialir->web->web,cloud discovery->eureka discovery,cloud routing->feign,然后一直下一步就行了。
 
 ####  创建完成后：
 

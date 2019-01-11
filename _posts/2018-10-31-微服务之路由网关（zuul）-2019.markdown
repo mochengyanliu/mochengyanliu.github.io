@@ -39,7 +39,7 @@ zuul有以下功能：
 
 ## 第二步：创建service-zuul工程： 
 
-右键工程->创建model->选择web->web,cloud discovery->eureka discovery,cloud routing->zuul,然后一直下一步就行了。
+右键工程->创建创建module->选择spring initialir->web->web,cloud discovery->eureka discovery,cloud routing->zuul,然后一直下一步就行了。
 
 ####  创建完成后：
 

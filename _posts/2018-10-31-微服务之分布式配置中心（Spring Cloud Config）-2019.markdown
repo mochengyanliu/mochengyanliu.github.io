@@ -30,7 +30,7 @@ tags:
 
 ## 第二步：创建config-server工程： 
 
-右键工程->创建model->选择web->web,cloud config->server,然后一直下一步就行了。
+右键工程->创建module->选择spring initialir->web->web,cloud config->server,然后一直下一步就行了。
 
 ####  创建完成后：
 
@@ -165,7 +165,7 @@ http请求地址和资源文件映射如下:
 
 ## 第四步：创建config-client工程： 
 
-右键工程->创建model->选择web->web,cloud config->client,然后一直下一步就行了。
+右键工程->创建创建module->选择spring initialir->web->web,cloud config->client,然后一直下一步就行了。
 
 
 ####  创建完成后：
