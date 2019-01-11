@@ -512,6 +512,11 @@ tags:
 		}
 	}
 	
+
+## 第十步 启动程序
+
+依次启动eureka-servr,config-server,config-server2,config-client
+
 我们先单独测试服务端，分别访问：http://localhost:8888/hello/dev、http://localhost:8887/hello/dev返回信息：
 
 	{
@@ -525,9 +530,6 @@ tags:
 	  "propertySources": []
 	}
 
-## 第十步 启动程序
-
-依次启动eureka-servr,config-server,config-server2,config-client
 
 访问http://localhost:8881/hello，网页显示：name=hello,handsomeman.
 说明客户端已经读取到了server端的内容，我们随机停掉一台server端的服务，
