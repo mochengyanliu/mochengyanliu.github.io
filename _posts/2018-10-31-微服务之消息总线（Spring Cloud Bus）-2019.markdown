@@ -13,7 +13,7 @@ tags:
 > “Hello everyone! ”
 
 
-## 高可用的分布式配置中心（Spring Cloud Config）简介
+## 消息总线（Spring Cloud Bus）简介
 
 spring cloud bus整合java的事件处理机制和消息中间件消息的发送和接受，主要由发送端、
 接收端和事件组成。针对不同的业务需求，可以设置不同的事件，发送端发送事件，接收端
@@ -432,7 +432,7 @@ spring cloud bus整合java的事件处理机制和消息中间件消息的发送
 
 分别访问：http://localhost:8881/hello、http://localhost:8882/hello返回信息：
 
-	hello=hello,handsomeman.
+hello=hello,handsomeman.
 
 这时我们去代码仓库将hello的值改为“hello=hello,every handsomeman.”，即改变配置文件hello的值。
 如果是传统的做法，需要重启服务，才能达到配置文件的更新。此时，我们只需要发送post请求，记住
@@ -444,7 +444,8 @@ spring cloud bus整合java的事件处理机制和消息中间件消息的发送
 
 
 再次分别访问：http://localhost:8881/hello、http://localhost:8882/hello返回信息：
-	hello=hello,every handsomeman.
+
+hello=hello,every handsomeman.
 
 另外，/actuator/bus-refresh接口可以指定服务，即使用"destination"参数，比如 “/actuator/bus-refresh?destination=user:**” 即刷新服务名为user的所有服务。
 

@@ -267,7 +267,7 @@ http请求地址和资源文件映射如下:
 
 	##spring.cloud.config.uri= http://localhost:8888/ 指明配置服务中心的网址。
 
-## 第三步 配置主程序
+## 第五步 配置主程序
 	
 在ConfigClientApplication类里面写一个API接口"/hello”，返回从配置中心读取的hello变量的值，代码如下
 
@@ -294,7 +294,7 @@ http请求地址和资源文件映射如下:
 		}
 	}
 
-## 第三步 启动程序
+## 第六步 启动程序
 
 访问http://localhost:8881/hello，网页显示
 
