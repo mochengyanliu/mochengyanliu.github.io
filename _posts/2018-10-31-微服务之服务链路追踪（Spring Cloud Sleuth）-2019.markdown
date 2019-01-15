@@ -2,7 +2,7 @@
 layout:     post
 title:      "微服务之服务链路追踪（Spring Cloud Sleuth）"
 subtitle:   " \"Hello SpringBoot, Hello SpringClould\""
-date:       2019-01-15 12:00:00
+date:       2019-01-15 14:00:00
 author:     "墨城烟柳（Mcyl）"
 header-img: "img/post-bg-os-metro.jpg"
 catalog: true
