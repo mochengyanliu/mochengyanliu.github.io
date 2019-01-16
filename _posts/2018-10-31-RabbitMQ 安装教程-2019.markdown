@@ -27,7 +27,7 @@ RabbitMQ是实现AMQP（高级消息队列协议）的消息中间件的一种�
 
 选择OTP xx.x HTML Documentation File
 
-![OTP](https://cdn.v2ex.com/gravatar/ea2204800f6b94c93204e90204d0f137?s=73&d=retro)
+![OTP](../img/rabbitmq/OTP.png)
 
 下载下来直接安装即可，不需要修改任何参数
 
@@ -37,7 +37,7 @@ RabbitMQ是实现AMQP（高级消息队列协议）的消息中间件的一种�
 
 选择Alternative download location (from Bintray)的rabbitmq-server-3.7.10.exe
 
-![RabbitMQ](img/rabbitmq/RabbitMQ.png)
+![RabbitMQ](../img/rabbitmq/RabbitMQ.png)
 
 下载后直接安装即可，也不用修改任何参数
 
@@ -54,6 +54,6 @@ RabbitMQ是实现AMQP（高级消息队列协议）的消息中间件的一种�
 
  访问http://localhost:15672/,输入默认账号guest，默认密码guest，即可看到管理界面。
  
- ![Result](img/rabbitmq/Result.png)
+ ![Result](../img/rabbitmq/Result.png)
 
 
