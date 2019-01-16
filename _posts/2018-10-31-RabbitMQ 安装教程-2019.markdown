@@ -27,7 +27,7 @@ RabbitMQ是实现AMQP（高级消息队列协议）的消息中间件的一种�
 
 选择OTP xx.x HTML Documentation File
 
-![OTP]（img/rabbitmq/OTP.png）
+![OTP]（https://cdn.v2ex.com/gravatar/ea2204800f6b94c93204e90204d0f137?s=73&d=retro）
 
 下载下来直接安装即可，不需要修改任何参数
 
