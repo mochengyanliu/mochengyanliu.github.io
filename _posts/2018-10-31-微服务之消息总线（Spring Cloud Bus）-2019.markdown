@@ -23,7 +23,7 @@ spring cloud bus整合java的事件处理机制和消息中间件消息的发送
 
 ## 第一步：创建条件
 
-首先安装rabbitmq，然后创建一个maven主工程.
+首先安装[rabbitmq](https://mochengyanliu.github.io/2019/01/16/RabbitMQ-安装教程-2019/)，然后创建一个maven主工程.
 
 ## 第二步：创建eureka-server工程： 
 
