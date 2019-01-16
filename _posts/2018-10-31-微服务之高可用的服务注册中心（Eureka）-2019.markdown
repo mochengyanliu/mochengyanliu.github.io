@@ -115,7 +115,7 @@ SpringCloud Eureka是云端服务发现，一个基于 REST 的服务，用于�
 		service-url:
 		  defaultZone: http://peer2:9872/eureka/
 
-## 第四步 配置主程序
+## 第三步 配置主程序
 
 	import org.springframework.boot.SpringApplication;
 	import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -132,7 +132,7 @@ SpringCloud Eureka是云端服务发现，一个基于 REST 的服务，用于�
 	}
 	
 	
-## 第五步：创建eureka-server2工程： 
+## 第四步：创建eureka-server2工程： 
 
 选择配置包不变，配置appication.yml文件：
 
@@ -149,7 +149,7 @@ SpringCloud Eureka是云端服务发现，一个基于 REST 的服务，用于�
 		service-url:
 		  defaultZone: http://peer1:9871/eureka/
 
-## 第二步：创建eureka-client工程： 
+## 第五步：创建eureka-client工程： 
 
 
 右键工程->创建module->选择spring initialir->cloud discovery->eureka client,然后一直下一步就行了。
@@ -241,7 +241,7 @@ SpringCloud Eureka是云端服务发现，一个基于 REST 的服务，用于�
 		service-url:
 		  defaultZone: http://peer1:9871/eureka/
 
-## 第四步 配置主程序
+## 第六步 配置主程序
 
 	import org.springframework.boot.SpringApplication;
 	import org.springframework.boot.autoconfigure.SpringBootApplication;
