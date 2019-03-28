@@ -7,7 +7,7 @@ author:     "墨城烟柳（Mcyl）"
 header-img: "img/post-bg-css.jpg"
 catalog: true
 tags:
-    - SpringBoot集成Swagger
+    - SpringBoot
 ---
 
 > “Hello everyone! ”
