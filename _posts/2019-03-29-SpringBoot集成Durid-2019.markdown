@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "SpringBoot 集成 Shiro"
+title:      "SpringBoot 集成 Durid"
 subtitle:   " \"Hello SpringBoot, Hello Durid\""
 date:       2019-03-29 12:00:00
 author:     "墨城烟柳（Mcyl）"
@@ -21,9 +21,9 @@ Druid首先是一个数据库连接池。Druid是目前最好的数据库连接�
 
 基于Filter－Chain模式的插件体系。
 
-    DruidDataSource 高效可管理的数据库连接池。
+DruidDataSource 高效可管理的数据库连接池。
 
-    SQLParser
+SQLParser
 
 ## 第一步： 新建SpringBoot项目
 
