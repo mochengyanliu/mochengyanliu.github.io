@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "SpringBoot 整合 阿里云OSS存储服务"
+title:      "SpringBoot 整合 阿里云OSS存储服务 秒变图床"
 subtitle:   " \"Hello SpringBoot, Hello OSS\""
 date:       2019-04-01 12:00:00
 author:     "墨城烟柳（Mcyl）"
