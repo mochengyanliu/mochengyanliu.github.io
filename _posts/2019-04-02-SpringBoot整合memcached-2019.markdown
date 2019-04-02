@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "SpringBoot 整合 阿里云OSS存储服务 秒变图床"
+title:      "SpringBoot 整合 Memcached"
 subtitle:   " \"Hello SpringBoot, Hello Memcached\""
 date:       2019-04-02 12:00:00
 author:     "墨城烟柳（Mcyl）"
@@ -27,7 +27,7 @@ Memcached简洁而强大。它的简洁设计便于快速开发，减轻开发�
 
 #### 安装memcached服务端 
 
-http://www.runoob.com/memcached/window-install-memcached.html
+[http://www.runoob.com/memcached/window-install-memcached.html](http://www.runoob.com/memcached/window-install-memcached.html)
 
 ## 第一步： 新建SpringBoot项目
 
