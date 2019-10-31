@@ -19,11 +19,9 @@ tags:
 
 Druid 核心主要包括三部分： 
 
-		1. DruidDriver 代理 Driver，能够提供基于 Filter－Chain 模式的插件体系。 
-
-		2. DruidDataSource 高效可管理的数据库连接池 
-		
-		3. SQLParser 当业务数据量达到了一定程度，DBA需要合理配置数据库资源。
+1. DruidDriver 代理 Driver，能够提供基于 Filter－Chain 模式的插件体系。 
+2. DruidDataSource 高效可管理的数据库连接池 
+3. SQLParser 当业务数据量达到了一定程度，DBA需要合理配置数据库资源。
 
 即配置主库的机器高配置，把核心高频的数据放在主库上；把次要的数据放在低配置的从库。开源节流嘛，把数据放在不同的数据库里，就需要通过不同的数据源进行操作数据。
 
@@ -329,8 +327,8 @@ Druid 核心主要包括三部分：
 
  启动工程，访问http://localhost:8081/getUserInfo?id=1，获取数据如下：
 
-
- 	{
+``` 	
+	{
 	    "userEntity": {
 	        "id": 1,
 	        "userName": "铠",
@@ -343,6 +341,7 @@ Druid 核心主要包括三部分：
 	        "description": "铠的家乡在长安城"
 	    }
 	}
+```
  
 ####  源码下载：
 
