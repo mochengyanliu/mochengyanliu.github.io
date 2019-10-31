@@ -328,19 +328,19 @@ Druid 核心主要包括三部分：
  启动工程，访问http://localhost:8081/getUserInfo?id=1，获取数据如下：
 
 ``` 	
-	{
-	    "userEntity": {
-	        "id": 1,
-	        "userName": "铠",
-	        "description": "以绝望挥剑 着逝者为铠"
-	    },
-	    "cityEntity": {
-	        "id": 1,
-	        "userId": 1,
-	        "cityName": "长安城",
-	        "description": "铠的家乡在长安城"
-	    }
-	}
+{
+    "userEntity": {
+        "id": 1,
+        "userName": "铠",
+        "description": "以绝望挥剑 着逝者为铠"
+    },
+    "cityEntity": {
+        "id": 1,
+        "userId": 1,
+        "cityName": "长安城",
+        "description": "铠的家乡在长安城"
+    }
+}
 ```
  
 ####  源码下载：
