@@ -27,16 +27,16 @@ AOP使用场景：
 
 #### 1、不管三七二十一，先看效果：
 	
-  INFO 1110 --- [nio-8080-exec-2] com.example.aoplog.aop.AopLog            : ======================请求开始========================
-  INFO 1110 --- [nio-8080-exec-2] com.example.aoplog.aop.AopLog            : 请求连接：http://localhost:8080/hello
-  INFO 1110 --- [nio-8080-exec-2] com.example.aoplog.aop.AopLog            : 接口描述：hello接口
-  INFO 1110 --- [nio-8080-exec-2] com.example.aoplog.aop.AopLog            : 请求类型：GET
-  INFO 1110 --- [nio-8080-exec-2] com.example.aoplog.aop.AopLog            : 请求方法：com.example.aoplog.controller.HelloControllerhello
-  INFO 1110 --- [nio-8080-exec-2] com.example.aoplog.aop.AopLog            : 请求IP：0:0:0:0:0:0:0:1
-  INFO 1110 --- [nio-8080-exec-2] com.example.aoplog.aop.AopLog            : 请求参数：[{"name":"Hello World"}]
-  INFO 1110 --- [nio-8080-exec-2] com.example.aoplog.aop.AopLog            : 请求耗时：77ms
-  INFO 1110 --- [nio-8080-exec-2] com.example.aoplog.aop.AopLog            : 请求返回：hello,Hello World
-  INFO 1110 --- [nio-8080-exec-2] com.example.aoplog.aop.AopLog            : ======================请求结束========================
+	  INFO 1110 --- [nio-8080-exec-2] com.example.aoplog.aop.AopLog            : ======================请求开始========================
+	  INFO 1110 --- [nio-8080-exec-2] com.example.aoplog.aop.AopLog            : 请求连接：http://localhost:8080/hello
+	  INFO 1110 --- [nio-8080-exec-2] com.example.aoplog.aop.AopLog            : 接口描述：hello接口
+	  INFO 1110 --- [nio-8080-exec-2] com.example.aoplog.aop.AopLog            : 请求类型：GET
+	  INFO 1110 --- [nio-8080-exec-2] com.example.aoplog.aop.AopLog            : 请求方法：com.example.aoplog.controller.HelloControllerhello
+	  INFO 1110 --- [nio-8080-exec-2] com.example.aoplog.aop.AopLog            : 请求IP：0:0:0:0:0:0:0:1
+	  INFO 1110 --- [nio-8080-exec-2] com.example.aoplog.aop.AopLog            : 请求参数：[{"name":"Hello World"}]
+	  INFO 1110 --- [nio-8080-exec-2] com.example.aoplog.aop.AopLog            : 请求耗时：77ms
+	  INFO 1110 --- [nio-8080-exec-2] com.example.aoplog.aop.AopLog            : 请求返回：hello,Hello World
+	  INFO 1110 --- [nio-8080-exec-2] com.example.aoplog.aop.AopLog            : ======================请求结束========================
 
 
 通过结果我们可以看到，我们的自定义注解EagleEye做到了统一的记录下了请求链接、接口描述、请求类型、请求方法、请求IP、请求参数、请求耗时、请求返回等信息。
@@ -192,7 +192,7 @@ AOP使用场景：
 	    }
 	}
 
-	好了，到大功告成，我们就完成了利用AOP自定义注解的所有步骤。
+好了，到大功告成，我们就完成了利用AOP自定义注解的所有步骤。
 
 #### 5、使用配置
 
