@@ -22,30 +22,42 @@ tags:
 ## 特点
 
 1、简洁、轻量、设计良好
+
 2、多数据库支持
+
 3、多种格式文档
+
 4、灵活扩展
+
 5、支持自定义模板
 
 ## 数据库支持
 
  1、MySQL
+
  2、MariaDB
+
  3、TIDB
+
  4、Oracle
+
  5、SqlServer
+
  6、PostgreSQL
+
  7、Cache DB
 
 ## 文档生成支持
 
  1、html
+
  2、word
+
  3、markdwon
 
 ## 文档截图
 
-![alt 点击查看](img/screw/1.png "数据库文档生成")
+![alt 点击查看](../img/screw/1.png "数据库文档生成")
 
 
 ## 文档截图
