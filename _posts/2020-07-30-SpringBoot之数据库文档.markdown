@@ -57,7 +57,7 @@ tags:
 
 ## 文档截图
 
-![alt 点击查看](/img/screw/1.png "数据库文档生成")
+![OTP](/img/screw/1.png)
 
 
 ## 文档截图
